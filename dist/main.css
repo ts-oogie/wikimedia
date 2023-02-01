@@ -2,6 +2,7 @@
 body {
   margin : 0;
   padding : 0;
+  background-color : #eefc3a;
 }
 
 a:link {
@@ -11,8 +12,9 @@ a:link {
 
 #mainContainer {
   width : 100%;
-  background-color : #8b7d71;
+  background-color : #eefc3a;
   min-height : 600px;
+  margin-bottom : 10px;
 }
 
 #navBar {
@@ -75,11 +77,12 @@ hr {
 #more-button { 
   display : none;
   height : 35px;
-  background-color : #574141 ;
+  background-color : grey ;
   width : 100px;
   text-align : center;
   margin : 0 auto;  
   margin-top : 10px;
+  margin-bottom : 10px;
   border-radius : 5px;
   border : solid white 1px;
 }
@@ -94,11 +97,21 @@ hr {
   display : inline;
 }
 
+#more {
+  margin-bottom : 10px;
+}
+
+#footer{
+  padding-top : 10px;
+  min-height : 200px;
+  background-color: #494745;
+}
+
 #results { 
   display : none;
   max-width : 80%;
   min-height : 200px;
-  background-color : #8b7d71; 
+  background-color : grey; 
   margin : 0 auto;
   margin-top : 20px;
   border : solid white 1px; 
@@ -107,7 +120,7 @@ hr {
 
 .article {  
   width : 95%; 
-  background-color : #574141;
+  background-color : #494745;
   margin : 0 auto;
   border-radius : 10px; 
   padding-bottom : 1px;

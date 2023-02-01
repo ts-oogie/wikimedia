@@ -9,7 +9,6 @@ app.get('/' , function(req, res ){
     res.sendFile(__dirname + '/dist/index.html');
 });
 
-console.log("running at port : " + port );
-console.log(__dirname);
+console.log("running at port : " + port ); 
 
 app.listen(port);
