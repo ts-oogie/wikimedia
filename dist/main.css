@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:200);
+body {
+  margin : 0;
+  padding : 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+#mainContainer {
+  width : 100%;
+  background-color : #8b7d71;
+  min-height : 600px;
+}
+
+#navBar {
+  z-index : 50;
+  padding-top : 2px;
+  width : 100%;
+  height : 75px;
+  background-color : black;
+  position : fixed;
+}
+
+h1 {
+  font-family : Dosis;
+  text-align : center;
+  color : white; 
+}
+
+hr {
+  margin-top : -10px;
+  width : 80%;
+  color : white;
+  border-color : white; 
+}
+
+#inputField {
+  padding-top : 200px;
+  text-align : center; 
+}
+
+#contact-text-message {
+  height : 30px;
+  text-align : center;
+  font-family : Dosis;
+  font-size : 1.25rem;
+  color : black; 
+}
+
+#submit-button { 
+  height : 35px;
+  background-color : grey;
+  width : 100px;
+  text-align : center;
+  margin : 0 auto;  
+  margin-top : 10px;
+  border-radius : 5px;
+  border : solid white 1px;
+}
+
+#submit-button p {
+  line-height : 35px;
+  vertical-align : middle;
+  font-family : Dosis;
+  font-size : 1.25rem;
+  color : white; 
+  position : relative;  
+  display : inline;
+  text-decoration : none;
+}
+
+#more-button { 
+  display : none;
+  height : 35px;
+  background-color : #574141 ;
+  width : 100px;
+  text-align : center;
+  margin : 0 auto;  
+  margin-top : 10px;
+  border-radius : 5px;
+  border : solid white 1px;
+}
+
+#more-button p {
+  line-height : 35px;
+  font-family : Dosis;
+  font-size : 1.25rem;
+  vertical-align : middle; 
+  color : white; 
+  position : relative;  
+  display : inline;
+}
+
+#results { 
+  display : none;
+  max-width : 80%;
+  min-height : 200px;
+  background-color : #8b7d71; 
+  margin : 0 auto;
+  margin-top : 20px;
+  border : solid white 1px; 
+  border-radius : 10px;
+}
+
+.article {  
+  width : 95%; 
+  background-color : #574141;
+  margin : 0 auto;
+  border-radius : 10px; 
+  padding-bottom : 1px;
+  padding-right : 5px;
+  padding-left : 5px;
+}
+
+.title {
+  font-family : Dosis;
+  font-size : 1rem;
+  color : white;
+  text-align : center;
+}
+
+#link { 
+  text-decoration : none;
+  margin-top : -30px;
+  font-family : Dosis;
+  font-size : .9rem;
+  color : #fbb41b;
+  text-align : center; 
+}

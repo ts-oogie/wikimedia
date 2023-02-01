@@ -1,0 +1,24 @@
+{
+  "name": "WIKIMEDIA",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "18.11.0"
+  },
+  "dependencies": { 
+    "express": "^4.18.2" 
+  },
+  "scripts": { 
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ts-oogie/catplusrabbit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ts-oogie/toshiplus/issues"
+  },
+  "homepage": "https://github.com/ts-oogie/toshiplus#readme" 
+}
